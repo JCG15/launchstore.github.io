@@ -1,0 +1,163 @@
+<html>
+		<head>
+			<title> LaunchStore:Registrarse </title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="registro.css">
+			<link rel="icon" type="image/jpg" href="../imagenes/icono.jpg">
+			  <script type="text/javascript">
+
+   				 function tratamiento(){
+        
+      				if(document.formulario.cajanombre.value.length==0){
+      			 	 alert("Esta vacio nombre")
+     			 	  return 0;
+   				  	 } 
+
+				     if(document.formulario.cajaapellidos.value.length==0){
+				       alert("Esta vacio apellidos")
+				       return 0;
+				     } 
+				     if(document.formulario.cajaususario.value.length==0){
+				       alert("Esta vacio usuario")
+				       return 0;
+				     } 
+
+				      if(document.formulario.cajacontraseña.value.length==0){
+				        alert("Esta vacio contraseña")
+				        return 0;
+				      } 
+				      if(document.formulario.cajacontraseña.value.length>8){
+				        alert("Solo se permite una contraseña con un maximo de 8 caracteres")
+				        return 0;
+				      } 
+				      
+				      if(document.formulario.cajacorreo.value.length==0){
+				        alert("Esta vacio correo")
+				        return 0;
+				      } 
+
+				      if(document.formulario.enviar.value.length==0){
+				        alert("Esta vacio quieres que te enviemos")
+				        return 0;
+				      } 
+
+				       if(document.formulario.profav.value.length==0){
+				        alert("Esta vacio el producto favorito")
+				        return 0;
+				      } 
+
+				      document.formulario.submit(); 
+				    }
+				    </script>
+		</head>
+		<body onload="alert('Recuerda rellenar todos los campos');" />
+			<div class="capapadre">
+				<div class="menu">
+					<div class="logo">LaunchStore</div>
+					<div class="iniciosesion">
+						<a href="iniciosesion.html">Iniciar Sesión</a>
+					</div>
+					<div class="registro">
+						<a href="registro.html">Registrarse</a>
+					</div>
+					<center> <div class="capadesplegable">
+					<center> <nav id="menu">
+						<ul>
+						  <li class="boton1"><a href="../index.html">Inicio</a></li>
+						  <li class="boton2"><a href="../productos.html">Productos</a> 
+						  </li>
+						  <li class="boton3"><a href="../conocenos.html">Conocenos</a>
+						  	<ul>
+						  		<li><a href="../ayudanos.html" target="_blank">Ayudanos a mejorar</a></li>
+						  	</ul>
+
+						  </li>
+						  <li class="boton4"><a href="#">Redes sociales</a>
+							<ul>
+								<li><a href="#"> <img src="../Imagenes/twitter.png" width="15" height="15"> @LaunchStore </a> </li>
+								<li> <a href="#"> <img src="../Imagenes/insta.png" width="15" height="15"> LaunchStore </a> </li>
+								<li> <a href="#"> <img src="../Imagenes/facebook.png" width="15" height="15"> LaunchStore </a> </li>
+							</ul>
+						  </li>
+						  <li class="boton5"><a href="#">Recomendaciones</a>
+						  <ul>
+						  	<li> <a href="../recomendaciones/programas.html"> <img src="../Imagenes/programas.png" width="15" height="15"> Programas </a> </li>
+						  	<li> <a href="../recomendaciones/musica.html"> <img src="../Imagenes/musica.png" width="15" height="15"> Canciones para empezar a tocar </a> </li>
+						  </ul>
+						  </li>
+						</ul>
+					</nav> </center>					
+			</div></center>
+			<div class="caparelleno"></div>
+			
+
+			<div class="fondo">
+
+				<div class="contenido">
+				<div class="titulo">Registrate</div>
+				<div class="tabla">
+				<form name="formulario" action="../index.html">
+					<table>
+					  <tr>
+					    <td>Nombre:</td>
+					    <td><input type="text" name="cajanombre"></td>
+					    <td>Apellidos:</td>
+					    <td><input type="text" name="cajaapellidos"></td>
+					  </tr>
+					  <tr>
+					    <td>Nombre de usuario:</td>
+					    <td><input type="text" name="cajaususario" maxlength="16"></td>
+					    <td>Contraseña:</td>
+					    <td><input type="password" name="cajacontraseña" maxlength="16"></td>
+					  </tr>
+					  <tr>
+					    <td>Correo electrónico:</td>
+					    <td><input type="text" name="cajacorreo"></td>
+					    <td>¿Quieres que te enviemos <br> nuestras novedades?</td>
+					    <td>
+					    	<input type="radio" name="enviar">Si
+					    	<input type="radio" name="enviar">No
+					    </td>
+					  </tr>
+					  <tr>
+					    <td>¿Que te interesa?</td>
+					    <td>
+					    	<input type="checkbox" name="producto">Productos
+					    	<input type="checkbox" name="musica">
+					    	Musica<br>
+					    	<input type="checkbox" name="programas">
+					    	Programas
+					    </td>
+					    <td>¿Cual es tu producto favorito?</td>
+					    <td>
+					    	<select name="profav">
+					    		<option></option>
+					    		<option>Launchpad Mini</option>
+					    		<option>Launchpad</option>
+					    		<option>Launchpad Pro</option>
+					    		<option>Launchpad Control XL</option>
+					    		<option>Launchpad Bag</option>
+					    		<option>Protector Launchpad</option>
+					    	</select>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan="2"><center><input type="button"  value="Registrarse" onclick="tratamiento()"></center></td>
+					    <td colspan="2"><center><input type="reset"  value="Borrar"></center></td>
+					  </tr>
+					</table>
+			   	</form>
+			   </div>
+			   </div>
+			</div>
+
+
+			
+
+			<div class="info">
+				<div class="privacidad"><a href="../privacidad.html">Política de privacidad y cookies</a></div>
+				<div class="terminos"><a href="../terminos.html">Términos y condiciones</a></div>
+				<div class="copy">© 2018 Focusrite Audio Engineering Plc. All Rights Reserved.</div>
+			</div>
+	</body>
+</html>

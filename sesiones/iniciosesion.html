@@ -1,0 +1,103 @@
+<html>
+		<head>
+			<title> LaunchStore:Iniciar Sesion </title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="iniciosesion.css">
+			<link rel="icon" type="image/jpg" href="../imagenes/icono.jpg">
+			<script type="text/javascript">
+			function tratamiento(){
+		
+			if(document.formulario.cajanombre.value.length==0){
+			alert("Está vacio el nombre de usuario")
+			return 0;
+				}	
+
+			if(document.formulario.cajaapellidos.value.length==0){
+			alert("Está vacia la contraseña")
+			return 0;
+			}	
+	
+			document.formulario.submit(); 
+			}
+			</script>
+		</head>
+		<body>
+			<div class="capapadre">
+				<div class="menu">
+					<div class="logo">LaunchStore</div>
+					<div class="iniciosesion">
+						<a href="iniciosesion.html">Iniciar Sesión</a>
+					</div>
+					<div class="registro">
+						<a href="registro.html">Registrarse</a>
+					</div>
+					<center> <div class="capadesplegable">
+					<center> <nav id="menu">
+						<ul>
+						  <li class="boton1"><a href="../index.html">Inicio</a></li>
+						  <li class="boton2"><a href="../productos.html">Productos</a> 
+						  </li>
+						  <li class="boton3"><a href="../conocenos.html">Conocenos</a>
+						  	<ul>
+						  		<li><a href="../ayudanos.html" target="_blank">Ayudanos a mejorar</a></li>
+						  	</ul>
+
+						  </li>
+						  <li class="boton4"><a href="#">Redes sociales</a>
+							<ul>
+								<li><a href="#"> <img src="../Imagenes/twitter.png" width="15" height="15"> @LaunchStore </a> </li>
+								<li> <a href="#"> <img src="../Imagenes/insta.png" width="15" height="15"> LaunchStore </a> </li>
+								<li> <a href="#"> <img src="../Imagenes/facebook.png" width="15" height="15"> LaunchStore </a> </li>
+							</ul>
+						  </li>
+						  <li class="boton5"><a href="#">Recomendaciones</a>
+						  <ul>
+						  	<li> <a href="../recomendaciones/programas.html"> <img src="../Imagenes/programas.png" width="15" height="15"> Programas </a> </li>
+						  	<li> <a href="../recomendaciones/musica.html"> <img src="../Imagenes/musica.png" width="15" height="15"> Canciones para empezar a tocar </a> </li>
+						  </ul>
+						  </li>
+						</ul>
+					</nav> </center>					
+			</div></center>
+			<div class="caparelleno"></div>
+			
+
+			<div class="fondo">
+				<div class="logo2"></div>
+				<div class="tabla">
+					<table>
+						<form name="formulario" action="../index.html">
+					  <tr>
+					    <td>Nombre de Usuario:</td>
+					    <td><input type="text" maxlength="20" name=cajanombre placeholder="Usuario"></td>
+					  </tr>
+					  <tr>
+					    <td>Contraseña:</td>
+					    <td><input type="password" maxlength="16" name="cajaapellidos" placeholder="Contraseña"></td>
+					  </tr>
+					  <tr>
+					    <td></td>
+					    <td></td>
+					  </tr><tr>
+					    <td></td>
+					    <td></td>
+					  </tr>
+					  <tr>
+					    <td>Recordar contraseña:</td>
+					    <td><input type="checkbox" onchange="alert('Has guardado la contraseña.');" /> <input type="button" value="Iniciar Sesión" onclick="tratamiento()"></td>
+					   <form>
+					</table>
+					<div class="registrarse">¿No te has regsitrado todavia? Registrate <a href="registro.html">aqui.</a></div>
+				</div>
+			</div>
+
+
+			
+
+			<div class="info">
+				<div class="privacidad"><a href="../privacidad.html">Política de privacidad y cookies</a></div>
+				<div class="terminos"><a href="../terminos.html">Términos y condiciones</a></div>
+				<div class="copy">© 2018 Focusrite Audio Engineering Plc. All Rights Reserved.</div>
+			</div>
+	</body>
+</html>
