@@ -1,0 +1,189 @@
+<html>
+		<head>
+			<title> LaunchStore:Productos </title>
+			<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+			
+			<link rel="stylesheet" href="productos.css">
+
+			<link rel="icon" type="image/jpg" href="imagenes/icono.jpg">
+			<style>
+			.mySlides {display:none}
+			.w3-left, .w3-right, .w3-badge {cursor:pointer}
+			.w3-badge {height:13px;width:13px;padding:0}
+			</style>
+		</head>
+		<body>
+			<div class="capapadre">
+				<div class="menu1">
+					<div class="logo">LaunchStore</div>
+					<div class="iniciosesion">
+						<a href="sesiones/iniciosesion.html">Iniciar Sesión</a>
+					</div>
+					<div class="registro">
+						<a href="sesiones/registro.html">Registrarse</a>
+					</div>
+					<center> <div class="capadesplegable">
+					<center> <nav id="menu1">
+						<ul>
+						  <li class="boton1"><a href="index.html">Inicio</a></li>
+						  <li class="boton2"><a href="productos.html">Productos</a> 
+						  </li>
+						  <li class="boton3"><a href="conocenos.html">Conocenos</a>
+						   	<ul>
+						  		<li>
+						  		<a href="ayudanos.html" target="_blank">Ayudanos a mejorar</a>
+						  		</li>
+						  	</ul>
+						  </li>
+						  <li class="boton4"><a href="#">Redes sociales</a>
+							<ul>
+								<li><a href="#"> <img src="Imagenes/twitter.png" width="15" height="15"> @LaunchStore </a> </li>
+								<li> <a href="#"> <img src="Imagenes/insta.png" width="15" height="15"> LaunchStore </a> </li>
+								<li> <a href="#"> <img src="Imagenes/facebook.png" width="15" height="15"> LaunchStore </a> </li>
+							</ul>
+						  </li>
+						  <li class="boton5"><a href="#">Recomendaciones</a>
+						  <ul>
+						  	<li> <a href="recomendaciones/programas.html"> <img src="Imagenes/programas.png" width="15" height="15"> Programas </a> </li>
+						  	<li> <a href="recomendaciones/musica.html"> <img src="Imagenes/musica.png" width="15" height="15"> Canciones para empezar a tocar </a> </li>
+						  </ul>
+						  </li>
+						</ul>
+					</nav> </center>					
+				</div></center>
+				<div class="caparelleno"></div>
+				<div class="caparelleno2"></div>
+
+			<div class="slider">
+				<div class="w3-content w3-display-container" style="max-width:800px">
+				  <img class="mySlides" src="imagenes/fotoslider3.jpg" style="width:100%">
+				  <img class="mySlides" src="imagenes/fotoslider2.jpg" style="width:100%">
+				  <img class="mySlides" src="imagenes/fotoslider1.jpg" style="width:100%">
+				  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+				    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+				    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+				  </div>
+				</div>
+
+				<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				  showDivs(slideIndex += n);
+				}
+
+				function currentDiv(n) {
+				  showDivs(slideIndex = n);
+				}
+
+				function showDivs(n) {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("demo");
+				  if (n > x.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = x.length}
+				  for (i = 0; i < x.length; i++) {
+				     x[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				     dots[i].className = dots[i].className.replace(" w3-white", "");
+				  }
+				  x[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " w3-white";
+				}
+				</script>
+			</div>
+
+			<div class="producto1">
+				<div class="producto11">
+
+				<div class="texto">
+					<h1>Launchpad Mini</h1>
+					Este es nuestro instrumento de rejilla Launchpad más compacto y asequible para Ableton Live. 64 mini almohadillas para disparar clips, tocar racks de batería, controlar su mezclador y hacer casi cualquier otra cosa, al mismo tiempo que crean videos de desempeño increíble para YouTube. Es como un Launchpad, pero más pequeño!
+				</div>
+
+				</div>
+				<div class="mas"><a href="productos/producto1.html"> <img src="imagenes/mas.png" width="20" height="20" ></a></div>
+			</div>
+
+			<div class="producto2">
+				<div class="producto22">
+
+				<div class="texto">
+					<h1>Launchpad</h1>		
+					
+					Si usas Ableton Live, necesitas un Launchpad. Su cuadrícula de 8 x 8 se ha vuelto omnipresente con la evolución de la música electrónica, permitiéndole lanzar clips, tocar racks de batería y controlar su mezclador, al mismo tiempo que crea impresionantes presentaciones de luces.
+				</div>
+
+				</div>
+				<div class="mas"><a href="productos/producto2.html"> <img src="imagenes/mas.png" width="20" height="20" ></a></div>
+			</div>
+				
+			<div class="producto3">
+				<div class="producto33">
+
+				<div class="texto">
+					<h1>Launchpad Pro</h1>		
+					
+				Hemos dado una revisión total a nuestro icónico Launchpad. Mejorado con retroalimentación LED RGB y almohadillas sensibles a la presión y la velocidad, Launchpad Pro brinda una expresión y creatividad ilimitadas a su música.
+				</div>
+
+				</div>
+				<div class="mas"><a href="productos/producto3.html"> <img src="imagenes/mas.png" width="20" height="20" ></a></div>
+			</div>
+
+			<div class="producto4">
+				<div class="producto44">
+					
+				<div class="texto">
+					<h1>Launchpad Control XL</h1>		
+
+					Cuando se combina con la intuitiva cuadrícula de 64 botones de Launchpad, Launch Control XL proporciona un extraordinario control simultáneo sobre la vista de sesión, el mezclador, los efectos y los instrumentos de Ableton Live.
+
+				</div>
+
+				</div>
+				<div class="mas"><a href="productos/producto4.html"> <img src="imagenes/mas.png" width="20" height="20" ></a></div>
+			</div>
+
+			<div class="producto5">
+				<div class="producto55">
+					
+					<div class="texto">
+					<h1>Launchpad Bag</h1>		
+
+					Su construcción de neopreno de forma ajustada está diseñada específicamente para Launchpad y cuenta con correas internas que mantienen el dispositivo en su lugar y una práctica configuración con cremallera para facilitar el acceso.
+
+					</div>
+
+				</div>
+				<div class="mas"><a href="productos/producto5.html"> <img src="imagenes/mas.png" width="20" height="20" ></a></div>
+			</div>
+
+			<div class="producto6">
+				<div class="producto66">
+					
+					<div class="texto">
+					<h1>Protector Launchpad</h1>		
+
+					Tapa Decksaver para Novation Launchpad fabricado con policarbonato extra-gruesa, para proteger tu equipo.
+
+					</div>
+
+				</div>
+				<div class="mas2"><a href="productos/producto6.html"> <img src="imagenes/mas.png" width="20" height="20" ></a></div>
+			</div>
+
+
+
+				<div class="info">
+				<div class="privacidad"><a href="privacidad.html">Política de privacidad y cookies</a></div>
+				<div class="terminos"><a href="terminos.html">Términos y condiciones</a></div>
+				<div class="copy">© 2018 Focusrite Audio Engineering Plc. All Rights Reserved.</div>
+				</div>
+	</body>
+</html>
