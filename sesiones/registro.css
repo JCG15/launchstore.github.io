@@ -70,8 +70,8 @@ div.logo{
 div.capadesplegable{
 	width:1100px;
 	height:80px;
-	margin-top:45px;
-	margin-left:30px;
+	margin-top:10px;
+	margin-left:35px;
 	float:left;
 }
 
@@ -189,8 +189,8 @@ div.titulo{
 	color:white;
 	font-family:"times";
 	float:left;
-	margin-left: 100px;
-	margin-top:-75px;
+	margin-left: 150px;
+	margin-top:-77px;
 	font-size:60px;
 }
 
@@ -198,7 +198,7 @@ div.tabla{
 	width:600px;
 	height:400px;
 	float:left;
-	margin-left:95px;
+	margin-left:150px;
 	margin-top:-5px;
 }
 
@@ -207,7 +207,7 @@ table{
 	font-family:"times";
 	border:white solid 2px;
 	border-collapse:collapse;
-	border-image: url(../imagenes/fondorelleno2.jpg)
+	border-image: url(../imagenes/fondorelleno2.jpg);
 	width:350px;
 	height:350px;
 }
@@ -224,10 +224,10 @@ div.separacion{
 
 div.fondo{
 	width:1000px;
-	height:470px;
+	height:500px;
 	float:left;
 	margin-left:50px;
-	margin-top:10px;
+	margin-top:5px;
 	background: url(../imagenes/fondorelleno2.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -248,7 +248,7 @@ div.info{
 	height:44px;
 	float:left;
 	margin-left:0px;
-	margin-top:50px;
+	margin-top:26px;
 	color:white;
 }
 

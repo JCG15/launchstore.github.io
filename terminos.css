@@ -77,8 +77,8 @@ div.logo{
 div.capadesplegable{
 	width:1100px;
 	height:80px;
-	margin-top:45px;
-	margin-left:30px;
+	margin-top:10px;
+	margin-left:35px;
 	float:left;
 }
 
@@ -181,6 +181,7 @@ div.contenido{
 	height:709px;
 	margin-left:50px;
 	color:white;
+	font-size: 12px;
 }
 
 div.info{
@@ -189,7 +190,7 @@ div.info{
 	height:44px;
 	float:left;
 	margin-left:0px;
-	margin-top:650px;
+	margin-top:654px;
 	color:white;
 }
 

@@ -234,7 +234,7 @@ background-size: cover;
 
 div.capapadre{
 	width:1100px;
-	height:2000px;
+	height:2100px;
 	margin:auto;
 	top:10px;
 	-webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 33px 13px rgba(255,255,255,0.66); 
@@ -285,10 +285,10 @@ div.logo{
 div.capadesplegable{
 	width:1100px;
 	height:80px;
-	margin-top:80px;
-	margin-left:10px;
+	margin-top:44px;
+	margin-left:15px;
 	float:left;
-
+	align-items: center;
 }
 
 li.boton1{
@@ -407,7 +407,7 @@ div.slider{
 
 div.mas{
 	float:left;
-	margin-top:180px;
+	margin-top:230px;
 	margin-left:220px;
 	transition:all 1s ease-out;
 }
@@ -418,7 +418,7 @@ div.mas:hover{
 
 div.mas2{
 	float:left;
-	margin-top:125px;
+	margin-top:175px;
 	margin-left:220px;
 	transition:all 1s ease-out;
 }
@@ -429,7 +429,7 @@ div.mas2:hover{
 
 div.producto1{
 	width:250px;
-	height:400px;
+	height:450px;
 	float:left;
 	margin-left:75px;
 	margin-top:200px;
@@ -459,7 +459,7 @@ div.producto11{
 
 div.producto2{
 	width:250px;
-	height:400px;
+	height:450px;
 	float:left;
 	margin-left:100px;
 	margin-top:200px;
@@ -488,7 +488,7 @@ div.producto22{
 
 div.producto3{
 	width:250px;
-	height:400px;
+	height:450px;
 	float:left;
 	margin-left:100px;
 	margin-top:200px;
@@ -518,7 +518,7 @@ div.producto33{
 
 div.producto4{
 	width:250px;
-	height:400px;
+	height:450px;
 	float:left;
 	margin-left:75px;
 	margin-top:100px;
@@ -547,7 +547,7 @@ div.producto44{
 
 div.producto5{
 	width:250px;
-	height:400px;
+	height:450px;
 	float:left;
 	margin-left:100px;
 	margin-top:100px;
@@ -576,7 +576,7 @@ div.producto55{
 
 div.producto6{
 	width:250px;
-	height:400px;
+	height:450px;
 	float:left;
 	margin-left:100px;
 	margin-top:100px;
